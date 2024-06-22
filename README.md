@@ -52,3 +52,13 @@ El modelo logarítmico es el mejor en términos generales, al demostrar un menor
 En cuanto al modelo basado en precios superiores a 650.000 dólares, se encontró que el modelo sin outliers, sin la transformación logarítmica, mostró un rendimiento superior. Este modelo exhibió un RMSE y MAE menores, así como un R² más alto en comparación con otros modelos probados, lo que lo posiciona como la mejor opción dentro de los modelos analizados.
 
 ### Recursos útiles para ver
+
+[Codigo Pyton](https://github.com/MarcosMHrdz/data_mid_bootcamp_project_regression/blob/master/entrega/Proyecto%20mid-bootcamp%20-%20Regresi%C3%B3n%20.ipynb)
+
+[Consultas MySQL](https://github.com/MarcosMHrdz/data_mid_bootcamp_project_regression/blob/master/entrega/house_price_regression.sql)
+
+[Presentaciones PowerBi](https://github.com/MarcosMHrdz/data_mid_bootcamp_project_regression/blob/master/entrega/powerbi%20proyecto.pbix)
+
+
+[Presentacione PDF](https://github.com/MarcosMHrdz/data_mid_bootcamp_project_regression/blob/master/entrega/Regresion.pdf)
+
