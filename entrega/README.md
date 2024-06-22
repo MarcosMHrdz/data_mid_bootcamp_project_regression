@@ -29,3 +29,26 @@ También utilizará Tableau para explorar visualmente los datos en mayor profund
 ### Modelo
 
 Utilice diferentes modelos para comparar las precisiones y encontrar el modelo que mejor se ajuste a sus datos. Puedes utilizar las medidas de precisiones que se han comentado en clase. Tenga en cuenta que al comparar diferentes modelos, asegúrese de utilizar la misma medida de precisión como punto de referencia.
+
+### Herramientas empleadas
+Visualización : Power BI
+Análisis exploratorio de datos (EDA) : MySQL, Python
+Aprendizaje automático : Python
+
+### Estructura del proyecto:
+
+1. Importar bibliotecas y cargar el conjunto de datos
+2. Visión general del conjunto de datos
+3. Limpieza de datos
+4. Análisis exploratorio de datos (EDA)
+5. Modelización de datos y examenar el cruzado de modelos
+6. Conclusión
+
+### Conclusión
+Después de realizar el análisis, se observó que las características relacionadas con el tamaño de la vivienda, como los pies cuadrados totales, la superficie habitable sin contar el sótano y la superficie del salón principal, tienen una correlación significativa con el precio de la vivienda. Este hallazgo sugiere que, en general, las viviendas más grandes tienden a ser más costosas. Además, características como el número de baños y una clasificación superior también influyen notablemente en el precio de la vivienda.
+
+El modelo logarítmico es el mejor en términos generales, al demostrar un menor RMSE y MAE, así como un R² más alto. Estos indicadores sugieren un mejor ajuste del modelo y una menor variabilidad en las predicciones.
+
+En cuanto al modelo basado en precios superiores a 650.000 dólares, se encontró que el modelo sin outliers, sin la transformación logarítmica, mostró un rendimiento superior. Este modelo exhibió un RMSE y MAE menores, así como un R² más alto en comparación con otros modelos probados, lo que lo posiciona como la mejor opción dentro de los modelos analizados.
+
+### Recursos útiles para ver
